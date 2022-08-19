@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro criativo</title>
+    <link rel="stylesheet" href="mobile_quadro_criativo.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header class="cabecalho_form" action="https://formspree.io/f/mnqrqggz" method="POST">
+        <img class="logo" src="./img/logo_architetus.jpg" alt="">
+    </header>
+    <main>
+        <div>
+            <div class="cabecalho">
+                <h1>Moodboard <span>Residencial</span></h1>
+                <h2 id="sub_titulo_tdb">Análise do terreno e das suas condições</h2>
+            </div>
+            <div>
+                <form action="" class="formulario">
+                    <section class="alinhamento">
+                        <h2>1. Residência</h2>
+                        <p>1.1 Escolha a residência mais próxima do seu gosto:</p>
+                        <p></p>
+                            <div class="product-small-img">
+                                <label for="teste1">
+                                    <img src="./img/casa01.jpg" onclick="myFunction(this)" class="imagem_teste">
+                                </label>
+                                <input type="checkbox" id="teste1">
+                                <label for="teste2">
+                                    <img src="./img/casa02.jpg" onclick="myFunction(this)" class="imagem_teste">
+                                </label>
+                                <input type="checkbox" id="teste2">
+                                <label for="teste3">
+                                    <img src="./img/casa03.jpg" onclick="myFunction(this)" class="imagem_teste">
+                                </label>
+                                <input type="checkbox" id="teste3">
+                            </div>
+                    </section>
+                    <section class="alinhamento">
+                        <h2>2. Textura</h2>
+                        <p>2.1 Escolha a textura mais próxima do seu gosto:</p>
+                        <p></p>
+                        <div class="product-small-img">
+                            <label for="teste4">
+                                <img src="./img/textura01.jpg" onclick="myFunction1(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste4">
+                            <label for="teste5">
+                                <img src="./img/textura02.jpg" onclick="myFunction1(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste5">
+                            <label for="teste6">
+                                <img src="./img/textura03.jpg" onclick="myFunction1(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste6">
+                        </div>
+                    <section class="alinhamento">
+                        <h2>3. Cor</h2>
+                        <p>3.1 Escolha a cor mais próxima do seu gosto:</p>
+                        <p></p>
+                        <div class="product-small-img">
+                            <label for="teste7">
+                                <img src="./img/cor01.jpg" onclick="myFunction2(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste7">
+                            <label for="teste8">
+                                <img src="./img/cor02.jpg" onclick="myFunction2(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste8">
+                            <label for="teste9">
+                                <img src="./img/cor03.jpg" onclick="myFunction2(this)" class="imagem_teste">
+                            </label>
+                            <input type="checkbox" id="teste9">
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </div>
+        <div>
+            <div class="mood_final">
+                <h2>Moodboard <span>Residencial</span></h2>
+                <p>Prévia do seu projeto</p>
+                <hr class="linha" color="black">
+            </div>
+            <div class="alinhamento_mood">
+                <div class="img-container">
+                    <img id="imagebox" src="./img/logo_architetus.jpg" class="imagem_teste_modificavel">
+                </div>
+                <div class="alinhamento_mood_dois">
+                    <div class="img-container">
+                        <img id="imagebox1" src="./img/logo_architetus.jpg" class="imagem_teste_modificavel">
+                    </div>
+                    <div class="img-container">
+                        <img id="imagebox2" src="./img/logo_architetus.jpg" class="imagem_teste_modificavel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="quadro_criativo.js"></script>
+</body>
+</html>
